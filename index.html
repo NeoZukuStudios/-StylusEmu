@@ -1,0 +1,40 @@
+# -StylusEmu
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VexxedBo1F4CTS - Emulator Stream</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        html, body {
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            overflow: hidden;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <iframe id="emuFrame" allow="autoplay; fullscreen; gamepad; microphone; camera" src=""></iframe>
+
+    <script>
+        // === COLOCA TU URL DE CLOUDFLARED AQUÍ ENTRE LAS COMILLAS ===
+        const CLOUDFLARE_URL = "https://reading-gathered-def-gave.trycloudflare.com/";
+
+        // Asigna la URL al iframe automáticamente al cargar la página
+        document.getElementById('emuFrame').src = CLOUDFLARE_URL;
+    </script>
+</body>
+</html>
