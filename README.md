@@ -1,32 +1,6 @@
 <div align="center">
 
-  <img src="https://vercel.app" alt="NZP-Mobile Banner" width="100%"/>
-
-  <h3>Adaptación WebGL Multiplataforma con Controles Táctiles Nativos en Pantalla</h3>
-
-  <!-- ETIQUETAS PRINCIPALES DE PLATAFORMAS -->
-  <p>
-    <img src="https://shields.io" alt="Web"/>
-    <img src="https://shields.io" alt="All"/>
-    <img src="https://shields.io" alt="Multiplataforma"/>
-  </p>
-
-  <!-- ETIQUETAS DE SISTEMAS OPERATIVOS Y DISPOSITIVOS -->
-  <p>
-    <img src="https://shields.io" alt="Android"/>
-    <img src="https://shields.io" alt="iOS"/>
-    <img src="https://shields.io" alt="iPad"/>
-    <img src="https://shields.io" alt="Tablet"/>
-    <img src="https://shields.io" alt="PC"/>
-  </p>
-
-  <!-- ETIQUETAS TÉCNICAS -->
-  <p>
-    <img src="https://shields.io" alt="Engine"/>
-    <img src="https://shields.io" alt="Controls"/>
-    <img src="https://shields.io" alt="Zero Install"/>
-    <img src="https://shields.io" alt="Status"/>
-  </p>
+  <img src="./logo.png" alt="NZP-Mobile" width="600"/>
 
 </div>
 
@@ -36,17 +10,16 @@
 
 1. [¿Qué es NZP-Mobile?](#-qué-es-nzp-mobile)
 2. [Características Principales](#-características-principales)
-3. [Compatibilidad Multiplataforma Detallada](#-compatibilidad-multiplataforma-detallada)
-4. [Tutorial Paso a Paso: Cómo Activar la Cámara y Jugar](#-tutorial-paso-a-paso-cómo-activar-la-cámara-y-jugar)
-5. [Guía Completa de Controles en Pantalla](#-guía-completa-de-controles-en-pantalla)
-6. [Mecánicas de Juego y Sistema de Supervivencia](#-mecánicas-de-juego-y-sistema-de-supervivencia)
-7. [Mapas y Escenarios](#-mapas-y-escenarios)
-8. [Armamento, Caja Misteriosa y Mejoras](#-armamento-caja-misteriosa-y-mejoras)
-9. [Máquinas de Ventajas (Perks)](#-máquinas-de-ventajas-perks)
-10. [Estrategias Avanzadas para Rondas Altas](#-estrategias-avanzadas-para-rondas-altas)
-11. [Despliegue Local y Desarrollo](#-despliegue-local-y-desarrollo)
-12. [Preguntas Frecuentes (FAQ)](#-preguntas-frecuentes-faq)
-13. [Créditos y Agradecimientos](#-créditos-y-agradecimientos)
+3. [Tutorial Paso a Paso: Cómo Activar la Cámara y Jugar](#-tutorial-paso-a-paso-cómo-activar-la-cámara-y-jugar)
+4. [Guía Completa de Controles en Pantalla](#-guía-completa-de-controles-en-pantalla)
+5. [Mecánicas de Juego y Sistema de Supervivencia](#-mecánicas-de-juego-y-sistema-de-supervivencia)
+6. [Mapas y Escenarios](#-mapas-y-escenarios)
+7. [Armamento, Caja Misteriosa y Mejoras](#-armamento-caja-misteriosa-y-mejoras)
+8. [Máquinas de Ventajas (Perks)](#-máquinas-de-ventajas-perks)
+9. [Estrategias Avanzadas para Rondas Altas](#-estrategias-avanzadas-para-rondas-altas)
+10. [Despliegue Local y Desarrollo](#-despliegue-local-y-desarrollo)
+11. [Preguntas Frecuentes (FAQ)](#-preguntas-frecuentes-faq)
+12. [Créditos y Agradecimientos](#-créditos-y-agradecimientos)
 
 ---
 
@@ -66,20 +39,6 @@ A diferencia de otras versiones web diseñadas exclusivamente para computadoras 
 * **Arquitectura Ultra Ligera:** Todo el paquete del juego ocupa menos de 100 MB, lo que permite tiempos de carga muy rápidos incluso con datos móviles o conexiones modestas.
 * **Soporte Híbrido (Táctil + Periféricos):** Si juegas en una laptop con pantalla táctil, en un iPad con teclado o en una PC convencional, puedes alternar libremente entre los controles en pantalla y tu teclado/ratón.
 * **Fidelidad de Jugabilidad Clásica:** Conserva el sistema clásico de rondas infinitas, economía por puntos, reparación de barricadas, compra de armas en paredes, cajas aleatorias y máquinas de bebidas potenciadoras.
-
----
-
-## 📱 Compatibilidad Multiplataforma Detallada
-
-**NZP-Mobile** está diseñado bajo estándares abiertos de HTML5 y WebGL, logrando compatibilidad universal en prácticamente cualquier equipo moderno:
-
-| Plataforma | Dispositivos Soportados | Navegadores Recomendados | Experiencia de Control |
-| :--- | :--- | :--- | :--- |
-| **Android** | Teléfonos de gama baja, media y alta | Google Chrome, Brave, Microsoft Edge, Opera | Controles táctiles Dual Joystick + Pantalla completa |
-| **iOS** | iPhone (todas las generaciones modernas) | Safari, Google Chrome | Controles táctiles Dual Joystick + Toque directo |
-| **iPadOS** | iPad, iPad Air, iPad Mini, iPad Pro | Safari, Google Chrome | Controles táctiles optimizados para pantalla amplia |
-| **Tablets** | Tablets Android, Windows Surface | Chrome, Edge, Samsung Internet | Controles táctiles + Soporte opcional de teclado |
-| **PC / Escritorio** | Windows 10/11, Linux, macOS, ChromeOS | Chrome, Firefox, Edge, Brave | Teclado (`WASD`) + Ratón o Pantalla Táctil |
 
 ---
 
@@ -122,3 +81,38 @@ El núcleo del juego se basa en resistir oleadas interminables de enemigos cuya 
 * **Sistema de Puntos (Economía):** Cada acción ofensiva o defensiva otorga puntos. Impactar disparos suma pequeños montos por bala, eliminar enemigos otorga una bonificación mayor (especialmente mediante disparos a la cabeza o ataques cuerpo a cuerpo) y reconstruir ventanas rotas genera ingresos constantes al inicio de cada ronda.
 * **Progresión de Rondas:** Las primeras oleadas son lentas y permiten acumular capital. A partir de rondas intermedias, los enemigos comienzan a correr y aparecen en mayor número desde múltiples puntos de entrada simultáneos.
 * **Gestión de Salud:** El personaje cuenta con regeneración automática de salud tras evitar recibir daño durante unos segundos. Si recibes varios golpes seguidos sin cobertura, la pantalla se teñirá de rojo indicando peligro crítico.
+* **Potenciadores Temporales (Drops):** Al eliminar enemigos, ocasionalmente soltarán objetos brillantes en el suelo con efectos inmediatos:
+  * **Munición Máxima:** Rellena al 100% las reservas de balas y granadas de todas tus armas.
+  * **Muerte Instantánea:** Permite eliminar a cualquier enemigo de un solo disparo o golpe durante 30 segundos.
+  * **Puntos Dobles:** Duplica todos los puntos obtenidos por disparos, bajas y reparaciones durante 30 segundos.
+  * **Bomba Nuclear:** Elimina al instante a todos los enemigos activos en el mapa y otorga una bonificación de puntos a todos los jugadores.
+
+---
+
+## 🗺️ Mapas y Escenarios
+
+Dependiendo de la rotación incluida en los archivos del servidor, podrás poner a prueba tu resistencia en distintos entornos tácticos:
+
+* **Nacht der Untoten:** Un edificio abandonado de tres salas conectadas. Es un mapa compacto y claustrofóbico donde no hay máquinas de ventajas, obligando al jugador a depender puramente de su puntería, gestión de munición y control de ventanas.
+* **Kino der Toten:** Un amplio teatro con escenario principal, telón, teletransportador y múltiples salas conectadas para hacer trenes de enemigos. Ideal para aplicar estrategias de movimiento circular y aprovechar trampas eléctricas.
+* **Escenarios Adicionales:** La estructura modular de la carpeta `nzp/` soporta mapas clásicos adicionales y creaciones de la comunidad con mecánicas únicas, interruptores de energía y zonas secretas.
+
+---
+
+## 🔫 Armamento, Caja Misteriosa y Mejoras
+
+Para sobrevivir más allá de las rondas iniciales necesitarás actualizar constantemente tu arsenal:
+
+* **Armas de Pared (Wallbuys):** Están dibujadas con tiza blanca en las paredes de distintas salas. Tienen un costo fijo y te permiten **comprar munición en cualquier momento** acercándote a la silueta y manteniendo presionado **USE (E)**.
+* **Caja Misteriosa (Mystery Box):** Un cofre de madera iluminado que aparece en ubicaciones específicas del mapa. Por un costo fijo de puntos, entrega un arma completamente aleatoria que puede ir desde rifles de asalto y ametralladoras ligeras hasta armas especiales de ciencia ficción.
+* **Máquina Potenciadora (Pack-a-Punch):** En los mapas que cuentan con electricidad y teletransportador, permite mejorar tus armas a cambio de una suma elevada de puntos, aumentando drásticamente su daño, capacidad de cargador, cadencia y cambiando el aspecto y sonido de los disparos.
+
+---
+
+## 🧪 Máquinas de Ventajas (Perks)
+
+Una vez que localices y actives el interruptor de electricidad en el mapa, podrás adquirir mejoras permanentes (mientras no seas derribado) en las máquinas expendedoras repartidas por las salas:
+
+* **Juggernog (Rojo):** Aumenta considerablemente tu resistencia física, permitiéndote soportar muchos más golpes antes de caer. Es la prioridad número uno en cualquier partida.
+* **Speed Cola (Verde):** Reduce a la mitad el tiempo necesario para recargar cualquier arma, vital cuando usas ametralladoras pesadas o escopetas.
+* **Double Tap (Amarillo/Naranja):** Incrementa la cadencia de disparo de todas tus armas, aumentando el daño por segundo frente a grupos grandes.
